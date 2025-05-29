@@ -1,6 +1,6 @@
 #!/bin/bash
 
-__docker_status_ps1()
+__docker_status()
 {
     CONTEXT=$(docker ps | wc -l)
 
